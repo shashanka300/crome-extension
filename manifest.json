@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Myjen",
+  "description": "Quick launch",
+  "version": "1.0.0",
+  "icons": { "128": "myjen.png" },
+  "browser_action": {
+    "default_icon": "myjen.png",
+	"default_title":"Myjen",
+    "default_popup": "index.html"
+	
+  },
+  "permissions": ["tabs", "https://mail.google.com/mail/*","https://outlook.live.com/owa/*","<all_urls>"]
+}
